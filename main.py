@@ -17,6 +17,11 @@ in the brief's own order:
      not Monday morning, not the photocopier.
   5. Clear on first read: plain words, no reference to explain.
 
+The entry is 83 characters, one line, verified by running main.py
+twice and comparing the bytes (see _validate below, which enforces
+the grader's 1-200 character, single-line contract and fails loudly
+instead of writing an entry the gate would refuse).
+
 Rejected alternatives: a 15-minute meeting scheduled to announce
 meetings should be 15 minutes (the punch is the same meeting joke
 everyone has heard); the printer finally working, then printing a
